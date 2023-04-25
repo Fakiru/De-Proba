@@ -26,3 +26,17 @@ div p span {
   border: #e20909 solid 5px;
   display: block;
 }
+
+.image {
+  width: 300px;
+  height: 500px;
+  background-image: url(../images/Baloons.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all ease-in-out 1s;
+}
+
+.image:hover {
+  background-image: url(../images/baloons\ bw.jpg);
+}
